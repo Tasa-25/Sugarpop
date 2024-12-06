@@ -18,6 +18,7 @@ import sugar_grain
 import bucket
 import level
 import message_display
+import sounds
 
 
 class Game:
@@ -31,7 +32,7 @@ class Game:
         self.font = pg.font.SysFont(None, 36)  # Default font, size 36
 
         # Create a Pymunk space with gravity
-        self.current_level = 3# Start game at 0
+        self.current_level = 2# Start game at 0
         self.level_complete = False
         self.space = pymunk.Space()
         self.space.gravity = (0, -9)  # Gravity pointing downwards in Pymunk's coordinate system
@@ -49,7 +50,7 @@ class Game:
         self.mouse_down = False
         self.current_line = None
         self.message_display = message_display.MessageDisplay(font_size=72)
-        
+        self.sounds = []
         # Load the intro image
         self.intro_image = pg.image.load("./images/SugarPop.png").convert()  # Load the intro image
         # Get new height based on correct scale
