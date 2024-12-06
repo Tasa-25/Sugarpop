@@ -1,8 +1,8 @@
 #############################################################
 # Module Name: Sugar Pop Dynamic Item Module
 # Project: Sugar Pop Program
-# Date: Nov 17, 2024
-# By: Brett W. Huffman
+# Date: Dec 1st, 2024
+# By: Natasha Kemirembe
 # Description: The dynamic item implementation of the sugar pop game
 #############################################################
 import pygame as pg

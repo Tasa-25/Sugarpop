@@ -1,8 +1,8 @@
 #############################################################
 # Module Name: Sugar Pop level Module
 # Project: Sugar Pop Program
-# Date: Nov 17, 2024
-# By: Brett W. Huffman
+# Date: Dec 1st, 2024
+# By: Natasha Kemirembe
 # Description: The level implementation of the sugar pop game
 #############################################################
 
