@@ -9,8 +9,8 @@ class Sounds:
         pg.mixer.init()
 
         # Load sounds
-        self.collect_sound = pg.mixer.Sound("grain_collect.wav")
-        self.explode_sound = pg.mixer.Sound("bucket_explode.wav")
+        self.collect_sound = pg.mixer.Sound("./sounds/sugarpop1.mp3")
+        self.explode_sound = pg.mixer.Sound("./sounds/sugarpop2.mp3")
 
         # Set default volumes (optional)
         self.collect_sound.set_volume(0.5)  # Volume: 0.0 to 1.0

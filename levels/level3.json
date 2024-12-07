@@ -40,27 +40,7 @@
             "line_width": 3,
             "friction": 0.3,
             "restitution": 0.5
-        },
-        {
-            "x1": 944,
-            "y1": 350,
-            "x2": 1024,
-            "y2": 350,
-            "color": "gray",
-            "line_width": 3,
-            "friction": 0.3,
-            "restitution": 0.5
-        },
-        {
-            "x1": 944,
-            "y1": 550,
-            "x2": 1024,
-            "y2": 550,
-            "color": "gray",
-            "line_width": 3,
-            "friction": 0.3,
-            "restitution": 0.5
-        }
+        }  
     ],
     "buckets": [
         {
@@ -68,42 +48,28 @@
             "y": 180,
             "width": 40,
             "height": 40,
-            "needed_sugar": 30
+            "needed_sugar": 50
         },
         {
             "x": 50,
             "y": 380,
             "width": 40,
             "height": 40,
-            "needed_sugar": 30
+            "needed_sugar": 50
         },
         {
             "x": 50,
             "y": 580,
             "width": 40,
             "height": 40,
-            "needed_sugar": 30
+            "needed_sugar": 50
         },
         {
             "x": 974,
             "y": 180,
             "width": 40,
             "height": 40,
-            "needed_sugar": 30
-        },
-        {
-            "x": 974,
-            "y": 380,
-            "width": 40,
-            "height": 40,
-            "needed_sugar": 30
-        },
-        {
-            "x": 974,
-            "y": 580,
-            "width": 40,
-            "height": 40,
-            "needed_sugar": 30
+            "needed_sugar": 50
         }
     ],
     "spout_x": 512,

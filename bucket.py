@@ -29,7 +29,7 @@ class Bucket:
         self.height = height / SCALE
         self.count = 0  # Counter for collected sugar grains
         self.needed_sugar = needed_sugar
-        self.sound = sounds()
+        self.sound = Sounds()
 
         wall_thickness = 0.2  # Thickness of the walls in physics units
 
@@ -98,7 +98,7 @@ class Bucket:
 
         # Remove the bucket walls
         self.space.remove(self.left_wall, self.right_wall, self.bottom_wall)
-        self.sounds.bucket_explode()
+        self.sound.play_bucket_explode()
 
         self.exploded = True  # Mark the bucket as exploded
         
@@ -144,7 +144,7 @@ class Bucket:
         # Check if the grain's position is within the bucket's bounding box
         if left <= grain_pos.x <= right and bottom <= grain_pos.y <= top:
             self.count += 1
-            self.sounds.grain_collect()  # Play the grain collection sound
+            self.sound.play_grain_collect()  # Play the grain collection sound
             return True  # Indicate that the grain was collected
 
         return False  # Grain not collected
