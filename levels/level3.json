@@ -1,78 +1,34 @@
 {
-    "number_sugar_grains": 200,
-    "statics": [
-        {
-            "x1": 0,
-            "y1": 150,
-            "x2": 80,
-            "y2": 150,
-            "color": "gray",
-            "line_width": 3,
-            "friction": 0.3,
-            "restitution": 0.5
-        },
-        {
-            "x1": 0,
-            "y1": 350,
-            "x2": 80,
-            "y2": 350,
-            "color": "gray",
-            "line_width": 3,
-            "friction": 0.3,
-            "restitution": 0.5
-        },
-        {
-            "x1": 0,
-            "y1": 550,
-            "x2": 80,
-            "y2": 550,
-            "color": "gray",
-            "line_width": 3,
-            "friction": 0.3,
-            "restitution": 0.5
-        },
-        {
-            "x1": 944,
-            "y1": 150,
-            "x2": 1024,
-            "y2": 150,
-            "color": "gray",
-            "line_width": 3,
-            "friction": 0.3,
-            "restitution": 0.5
-        }  
-    ],
+    "spout_x": 300,
+    "spout_y": 400,
+    "number_sugar_grains": 300,
     "buckets": [
         {
-            "x": 50,
-            "y": 180,
-            "width": 40,
-            "height": 40,
+            "x": 100,
+            "y": 100,
+            "width": 50,
+            "height": 20,
             "needed_sugar": 50
         },
         {
-            "x": 50,
-            "y": 380,
-            "width": 40,
-            "height": 40,
-            "needed_sugar": 50
-        },
-        {
-            "x": 50,
-            "y": 580,
-            "width": 40,
-            "height": 40,
-            "needed_sugar": 50
-        },
-        {
-            "x": 974,
-            "y": 180,
-            "width": 40,
-            "height": 40,
+            "x": 500,
+            "y": 150,
+            "width": 50,
+            "height": 20,
             "needed_sugar": 50
         }
     ],
-    "spout_x": 512,
-    "spout_y": 790,
-    "time_to_complete_level": 120
+    "statics": [
+       
+        {
+            "x1": 300,
+            "y1": 250,
+            "x2": 450,
+            "y2": 200,
+            "color": "blue",
+            "line_width": 5,
+            "friction": 0.5,
+            "restitution": 0.1
+        }
+    ]
 }

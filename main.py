@@ -51,7 +51,7 @@ class Game:
         self.current_line = None
         self.message_display = message_display.MessageDisplay(font_size=72)
         self.sounds = Sounds()
-        self.sounds.play_grain_collect()
+        # self.sounds.play_grain_collect()
         # Load the intro image
         self.intro_image = pg.image.load("./images/SugarPop.png").convert()  # Load the intro image
         # Get new height based on correct scale

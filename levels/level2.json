@@ -1,7 +1,7 @@
 {
     "spout_x": 400,
     "spout_y": 500,
-    "number_sugar_grains": 100,
+    "number_sugar_grains": 200,
     "buckets": [
       {
         "x": 200,
