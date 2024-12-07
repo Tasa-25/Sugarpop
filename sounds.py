@@ -14,17 +14,19 @@ class Sounds:
 
         # Set default volumes (optional)
         self.collect_sound.set_volume(0.5)  # Volume: 0.0 to 1.0
+        self.collect_channel = pg.mixer.Channel(0)
         self.explode_sound.set_volume(0.8)
+        self.explode_channel = pg.mixer.Channel(1)
 
     def play_grain_collect(self):
         """
         Play the grain collection sound.
         """
-        self.collect_sound.play()
-
+        self.collect_channel.play(self.collect_sound)
+        
     def play_bucket_explode(self):
         """
         Play the bucket explosion sound.
         """
-        self.explode_sound.play()
+        self.explode_channel.play(self.explode_sound)
         

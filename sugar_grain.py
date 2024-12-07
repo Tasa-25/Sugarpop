@@ -19,6 +19,8 @@ class sugar_grain:
         :param y: Initial y position in Pygame coordinates.
         """
         self.space = space
+        
+        self.sound_played = False
 
         # Convert Pygame coordinates to Pymunk coordinates (Pymunk's Y-axis points upwards)
         pos_x = x / SCALE
